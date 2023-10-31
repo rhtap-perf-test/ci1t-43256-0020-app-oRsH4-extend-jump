@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-hjtz
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoup_perfscale/ci1t-43256-0020-tenant/ci1t-43256-0020-app/devfile-sample-hjtz@sha256:659d368a6e6650d8e56396dbcb311133e5f5da4af3b28e897e46fd5046ed0016
+        name: my-nodejs
+        resources: {}
+status: {}
